@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade prática - Login e Cadastro com Bootstrap</title>
+    <link rel="shortcut icon" href="./imagens/azul-laranja.jfif" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar bg-primary">
+            <div class="container">
+              <a class="navbar-brand" href="./login.html">
+                <img src="./imagens/liberado.jfif" width="80" alt="">
+                <p>retornar ao login</p>
+              </a>
+            </div>
+          </nav>
+    </header>
+      <main>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col text-center col-12">
+                <h1 class="modal-title" id="ModalLabel">Crie sua conta</h1>
+              </div>
+              <form id="create-form">
+              <div class="modal-body">
+                <div class="mb-3 mt-5">
+                        <label for="email-create-input" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email-create-input" 
+                        aria-describedby="emailHelp" required>
+                        <div id="emailHelp" class="form-text">Utilize seu e-mail para criar a conta.
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="password-create-input" class="form-label">Senha</label>
+                        <input type="password" class="form-control" id="password-create-input" required>
+                        <div id="emailHelp" class="form-text">Utilize uma senha fácil de lembrar e 
+                          anote para não esquecer.
+                      </div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="confirm-password-create-input" class="form-label">Confirmar senha</label>
+                        <input type="password" class="form-control" id="confirm-password-create-input" required>
+                        <br>
+                      </div>
+                      </div>
+                  <div class="modal-footer col-12">
+                <button type="button" class="btn btn-secondary button-cancel" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn  button-default btn-primary">Criar conta</button>
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script src="./js/cadastro2.js"></script>
+</body>
+</html>

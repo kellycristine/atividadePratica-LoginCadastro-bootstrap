@@ -1,0 +1,61 @@
+Chegou a hora de praticar um pouco mais sobre o conteúdo visto durante
+as aulas do módulo Front-end III. Vamos colocar em prática os
+conhecimentos de Bootstrap.
+
+Este exercício está dividido em dois cenários diferentes: a página de Login
+e a página de cadastro (SignUp).
+
+Cenário #1 - Login
+A equipe de UX da Growdev optou por adotar o Bootstrap como
+framework padrão para os projetos web dos clientes, como forma de
+padronizar os estilos de componentes e otimizar o tempo das equipes de
+desenvolvimento front-end.
+
+Para isso, os projetos em andamento deverão ser refatorados para que o
+framework seja adicionado às páginas e para que os principais
+componentes sejam utilizados. Você ficou encarregado(a) de alterar a
+página de Login da API de Recados para adicionar o Bootstrap e usar os
+seus principais elementos.
+
+Regras
+1. Configure o Bootstrap na página de Login.
+2. Mude os elementos do formulário (inputs, buttons e textos) para que
+estejam no padrão dos elementos do Bootstrap.
+
+Conforme design definido pelo UX do time, o layout da página deverá ser
+semelhante a imagem abaixo.
+
+Cenário #2 - SignUp
+Além da mudança para o Bootstrap, o gestor decidiu que você deverá
+criar também a página de cadastro de usuários para a API de Recados.
+Essa página já precisa estar no padrão Bootstrap.
+Sendo assim, crie uma página de cadastro de usuários (SignUp) com os
+campos necessários para se criar um usuário na API.
+
+Extra
+Além da página (front-end), a integração com a API para solicitar a
+criação do usuário ao back-end deverá ser feita.
+
+Regras
+1. Crie uma página para o cadastro de usuários.
+2. Na tela de login, o botão “Cadastre-se” deverá direcionar para nova
+página.
+3. Crie o layout da tela de cadastro conforme layout proposto.
+4. Crie um formulário contendo os itens obrigatórios para a criação de
+um usuário; use elementos do Bootstrap.
+5. Faça um campo para repetição da senha. Este campo deve ser
+posicionado ao lado do campo para a senha.
+6. Para posicionar os elementos do formulário, use o Grid System do
+Bootstrap.
+7. Insira um botão primário para submeter o formulário de cadastro.
+8. Mantenha um padrão de design semelhante a página de Login.
+
+Que tal ir além?
+1. Faça uma função no Javascript para submeter o formulário à API.
+2. Construa a chamada POST para criar o usuário.
+3. Receba o retorno e...
+a. Em caso de sucesso, direcione para a tela de Login.
+b. Em caso de erro, mostre um alerta com as informações sobre
+o erro.
+
+Bora growdevers 🚀
